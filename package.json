@@ -1,0 +1,32 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node -r esm app.js",
+        "dev": "nodemon -r esm app.js"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-plugin-module-resolver": "^3.2.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "esm": "^3.2.25"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "nodemon": "^1.19.4",
+        "puppeteer": "^2.0.0"
+    }
+}
