@@ -1,11 +1,3 @@
 {
-    "presets": ["es2015", "stage-2"],
-    "plugins": [
-        ["module-resolver", {
-          "alias": {
-            "@route": "./routes",
-            "@func":"./function"
-          }
-        }]
-      ]
+    "presets": ["es2015", "stage-2"]
 }
